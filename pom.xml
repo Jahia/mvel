@@ -238,15 +238,15 @@
     <distributionManagement>
         <!-- use the following if you're not using a snapshot version. -->
         <repository>
-            <id>codehaus.org</id>
-            <name>Codehaus Maven Repository</name>
-            <url>dav:https://dav.codehaus.org/repository/mvel/</url>
+            <id>thirdparty-releases</id>
+            <name>Jahia Third Party Maven Repository</name>
+            <url>dav:https://devtools.jahia.com/nexus/content/repositories/thirdparty-releases/</url>
         </repository>
         <!-- use the following if you ARE using a snapshot version. -->
         <snapshotRepository>
-            <id>codehaus.org</id>
-            <name>Codehaus Snapshot Maven Repository</name>
-            <url>dav:https://dav.codehaus.org/snapshots.repository/mvel/</url>
+            <id>thirdparty-snapshots</id>
+            <name>Jahia Third Party Snapshot Maven Repository</name>
+            <url>dav:https://devtools.jahia.com/nexus/content/repositories/thirdparty-snapshots/</url>
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
